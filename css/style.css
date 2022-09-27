@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+
+
+.navbar{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+
+}
+.controle-cards{
+    height: auto;
+    padding: 50px;
+}
+
+
+.cards1{
+    display: flex;
+    justify-content: center;
+}
+.cards1 .card{
+    margin: 10px;
+    text-align: center;
+    transition: .1s;
+    font-family: 'Montserrat';
+    transition: .1s;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.274);
+}
+
+
+.cards1 .card .card-body .card-title{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+
+
+.cards1 .card img{
+  height: 190px;
+}
+
+
+    
+.cards1 .card .btn{
+    transition: .1s;
+}
+
+.cards1 .card .btn:hover{
+background-color: rgb(0, 38, 209);
+scale: 1.1;
+transition: .1s;
+}
+
+
+.controle-carousel{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.carousel1{
+    width: 800px;
+}
+
+.carousel-inner{
+    border-radius: 15px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.171);
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(33,37,41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.controle-saiba{
+    width: 100%;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    
+}
+
+.controle-saiba .saiba{
+    width: 40%;
+    height: auto;
+    margin: 50px;
+
+}
+
+.controle-saiba .texto-saiba{
+    width: 40%;
+}
+.controle-saiba img{
+    height: auto;
+    border-radius: 15px;
+    transition: .1s;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.267);
+}
+
+.controle-saiba img:hover{
+    scale: 1.02;
+    transition: .1s;
+}
+
+.texto-nome{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+}
